@@ -1,3 +1,12 @@
+<?php
+/**
+ * Mi primer prgrama en php
+ * Un pequeño programa en php
+ * PHP version 5
+ * @version 5
+ * @author José Antonio Cano
+ */
+?>
 <!DOCTYPE html>
 <html  lang="es">
 <head>

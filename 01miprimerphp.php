@@ -1,3 +1,12 @@
+<?php
+/**
+ * Hola Mundo en php
+ * Etiquetas php simples
+ * PHP version 5
+ * @version 5
+ * @author José Antonio Cano
+ */
+?>
 <!DOCTYPE html>
 <html  lang="es">
 <head>
