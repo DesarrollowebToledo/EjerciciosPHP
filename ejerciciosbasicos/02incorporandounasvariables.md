@@ -1,6 +1,6 @@
 Jugando contra el ordenador
 ==============================
->Un pequeño programa utilizando variables, operadores lógicos, condicionales y una función
+>Un pequeño programa utilizando variables, operadores lógicos, condicionales y una función<
 La función rand en php nos devuelve un valor aleatorio entre un rango de dos enteros:
 <code>$num=rand(1,10);</code>
 1. En la variable $num se almacena un valor entero que la computadora genera 
