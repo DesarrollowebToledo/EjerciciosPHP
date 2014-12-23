@@ -1,9 +1,9 @@
 Hola Mundo en PHP
 =================
-1. Confeccionar un programa php que muestre una serie de mensajes en la página empleando el comando echo. 
-2. Deberemos crear un archivo con extensión php,
-3. Una estructura básica de documento html
-4. Dentro de etiquetas de bloque php encerrar nuestro código php 
+1. Confeccionar un programa php que muestre una serie de mensajes en la pÃ¡gina empleando el comando echo. 
+2. Deberemos crear un archivo con extensiÃ³n php,
+3. Una estructura bÃ¡sica de documento html
+4. Dentro de etiquetas de bloque php encerrar nuestro cÃ³digo php 
 3. Tenga en cuenta: 
-	+	cuando utiliza el comando echo, los mensajes pueden ir entre comillas dobles (más adelante veremos que también pueden ir entre comillas simples).
-	+ 	Toda instrucción finaliza con punto y coma.
+	+	cuando utiliza el comando echo, los mensajes pueden ir entre comillas dobles (mÃ¡s adelante veremos que también pueden ir entre comillas simples).
+	+ 	Toda instrucciÃ³n finaliza con punto y coma.
