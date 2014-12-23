@@ -8,7 +8,7 @@ Crearemos un sencillo programa que cargue dinámicamente imágenes cada vez que 
 ```
 <img src="img/<?php $imagen ?>">
 ````
-4.	Asignar  un valor aleatorio a $imagen entre '1 y 3'. 
+4.	Asignar  un valor aleatorio a $imagen entre '1 y 3' mediante la función rand(). 
 
 5.	Dependiendo del valor obtenido mostrar una imagen u otra,
 
