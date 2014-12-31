@@ -15,7 +15,7 @@ El formulario debe ser:
  
 
 </form>
-``
+````
 
 
 *	  Para el ingreso del nombre, dirección y cantidad de pizzas de cada tipo disponer objetos de la clase "text".
