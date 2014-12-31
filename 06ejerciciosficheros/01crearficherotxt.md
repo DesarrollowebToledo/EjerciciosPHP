@@ -1,6 +1,6 @@
 #Pedido de pizzas via internet.
 El formulario debe ser:
-
+````html
 <form>
 <label>Nombre
 <input type='text'> 
@@ -15,9 +15,10 @@ El formulario debe ser:
  
 
 </form>
+``
 
 
-*	Para el ingreso del nombre, dirección y cantidad de pizzas de cada tipo disponer objetos de la clase "text".
-*	Disponer tres objetos de tipo "checkbox" para seleccionar los tipos de pizzas.
-*	Por último disponer un botón para el envío de datos: "submit".
-*	Grabar en un archivo de texto llamado "pedidos.txt" cada pedido, separados por una línea de puntos entre cada pedido.
+*	  Para el ingreso del nombre, dirección y cantidad de pizzas de cada tipo disponer objetos de la clase "text".
+*	  Disponer tres objetos de tipo "checkbox" para seleccionar los tipos de pizzas.
+*	  Por último disponer un botón para el envío de datos: "submit".
+*	  Grabar en un archivo de texto llamado "pedidos.txt" cada pedido, separados por una línea de puntos entre cada pedido.
