@@ -4,6 +4,7 @@ Confeccionaremos un programa que imprima código PHP de diferentes formas
 ````<?php ?> etiquetas de bloque PHP
 echo "";//orden echo````
 
+*	Copia estas instrucciones como codigo al principio del programa
 *	Mostraremos una serie de mensajes en la página empleando el comando echo y print, .
 *	Deberemos crear un archivo con extensión php,
 *	Una estructura básica de documento html
