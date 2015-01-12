@@ -24,4 +24,4 @@ El formulario debe ser:
 *	  Disponer tres objetos de tipo "checkbox" para seleccionar los tipos de pizzas.
 *	  Por último disponer un botón para el envío de datos: "submit".
 *	  Grabar en un archivo de texto llamado "pedidos.txt" cada pedido, separados por una línea de puntos entre cada pedido.
-*	  En una página debemos ver los pedidos que se han realizado.
+*	  En una página debemos ver los pedidos que se han realizado. (Los incorporamos mediante un include)
