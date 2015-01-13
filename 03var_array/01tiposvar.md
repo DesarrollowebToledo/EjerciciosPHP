@@ -3,3 +3,4 @@
 2.	Luego imprimirlas en la página, 
 3. una por línea.
 4. Imprimirlas nuevamente con la función var_dump()
+Alvaro
