@@ -14,3 +14,4 @@ Tenga en cuenta:
 2.	Toda instrucción finaliza con punto y coma.
 3.	Incorporar dentro de la orden echo un string que incorpore etiquetas html
 4.	Incorporar la orden echo dentro un  atributo html
+5.	Cesitar
