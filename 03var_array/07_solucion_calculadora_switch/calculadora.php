@@ -11,7 +11,8 @@
 		<input type="number" name="numero1"/><br><br>
 		<input type="number" name="numero2"/><br><br>
 		<label for="operaciones">Elige la operación a realizar</label>
-		<select name="operaciones"> etiqueta de lista
+		<select name="operaciones"> 
+			<option value=""></option>
 			<option value="suma">+</option>
 			<option value="resta">-</option>
 			<option value="multiplicacion">*</option>
