@@ -2,6 +2,9 @@
 	$numero1=$_POST['numero1'];
 	$numero2=$_POST['numero2'];
 	$operacion=$_POST['operacion'];
+	if ($operacion==""){
+		echo "No ha seleccionado ninguna operación";
+	}
 	if ($operacion=="suma") 
 	{
 		$resultado=$numero1+$numero2;
@@ -22,5 +25,8 @@
 	{
 		$resultado=$numero1%$numero2;
 	}
-	echo $resultado;
+	if ($operacion!=="")
+	{
+		echo $resultado;
+	}
 ?>

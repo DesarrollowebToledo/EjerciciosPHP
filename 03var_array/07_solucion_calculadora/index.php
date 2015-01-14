@@ -8,6 +8,7 @@
 			</label>
 			<label for='operacion'> Operación </label>
 			<select name='operacion'>
+				<option value=""> </option>
 				<option value='suma'> Sumar </option>
 				<option value='restar'> Restar </option>
 				<option value='multiplicar'> Multiplicar </option>
