@@ -4,4 +4,5 @@
 * Cada enlace apuntará, por tanto, a la página denominada empresa.php pero se diferenciarán en que  la variable idioma (id)tomará en  cada uno diferente valor.
 * Elaborar un script que   nos ofrezca los mismos textos pero en diferente idioma dependiendo enlace pulsado. Serán cuatro strings traducidos con el traductor de Google, por ejemplo.
 * Debemos utilizar un switch
+* Para finalizar deberemos implantar nuestra página en un repositorio personal de github
 Nota: mediante cookies podemos hacer que esta traducción se mantenga durante toda la web
