@@ -1,0 +1,6 @@
+#Crear un array asociativo de la clase  
+* cada alumno tenga los siguientes pares de clave valor: 
+nombre, apellidos,email, estudios, poblacion;
+* Si desconocemos un valor, pondremos espacio vacío
+* Imprimir los valores de un alumno determinado
+* Imprimir el array completo mediante el bucle foreach en una tabla html
