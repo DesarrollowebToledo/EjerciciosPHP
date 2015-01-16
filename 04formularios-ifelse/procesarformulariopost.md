@@ -8,7 +8,7 @@
     6. 	Un campo tipo checkbox que diga que acepto las condiciones del servicio 
 2. 	Procesar el formulario mediante post y el la  página procesada 
     *   saludar al usuario (implicando su sexo y su nombre), Ejemplo Hola, querido amig(o/a), nombre
-    *  	decirle su edad 
+    *  	decirle su edad. Ayudaros de la función date(); 
     *   decirle un mensaje personalizado según los estudios
     *   Si desea recibir información le informamos de los cursos que tenemos
 
