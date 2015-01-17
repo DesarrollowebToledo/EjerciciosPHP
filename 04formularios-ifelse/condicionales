@@ -1,0 +1,11 @@
+#Ejercicio 1
+* Definir un array de 5 elementos y asignar a cada uno de ellos un número.
+* Mediante una estructura condicional, determinar si el promedio de los números son mayores o menores que 5.
+* Mostrar un mensaje por pantalla si es igual o mayor de 5, aprobado y si es menor, suspenso.
+#Ejercicio 2
+* Crear  un formulario con input date, utilizando switch en su procesamiento.
+* Calcular la edad
+* Dependiendo de la edad (menor de 8, menor de 18, mayor de 65, adulto trabajador )
+* Imprimir  por pantalla un mensaje personalizado pra ello
+
+
