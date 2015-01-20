@@ -4,7 +4,7 @@ Tendrá los siguientes campos:
 * Nombre
 * email
 * Asunto
-* Comentarios
+* Mensaje
 * Botón de envío
 
 lo procesaremos en la misma página
