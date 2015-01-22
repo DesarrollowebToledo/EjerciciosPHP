@@ -1,3 +1,4 @@
 #crear estilos mediante cookies
+*   MEDIANTE UN SELECT PREVISUALIZAREMOS LOS TEMPLATES DE BOOTSTRAP ALOJADOS EN http://www.bootstrapcdn.com/#bootswatch_tab
 *   Ofreceremos a los usuarios la posibilidad de escoger el estilo de la página 
-*    Este se repetirá cada vez que accedamos a la página nuevamente
+*   aLMACENAREMOS EN UNA COOKIE SU SELECCION
