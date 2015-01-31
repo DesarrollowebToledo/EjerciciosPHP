@@ -2,30 +2,33 @@
 El objetivo de la práctica será crear una web autoadministrable por ellos mismos a un grupo musical. 
 Para ello deberemos crear una web con un frontend publico y un backend de administración gestionado por sesiones.
 
+##Deberemos tender a incorporar el máximo de elementos autoadmiistrables
+
 Tras elaborar el frontend utilizando includes.php , procederemos a crear la parte de administración.
 
 1.    estructura de archivos
 
    ##Frontend
-  * /index.php // deberá mostrar un header con imagen aleatoria dependiendo del acceso (tres imágenes alojadas en imagesheader)
-  * /galeria.php // deberá mostrar las imágenes que se carguen en la carpeta galeriaimg
-  * /librovisitas.php
-  * /contacto.php
-  * /css/main.css
-  * /js/main.js
-  * /includes/header.php
-  * /includes/menu.php
-  * /includes/sidebar.php
+  * /index.php // alojará una descripción y un  pequeño vídeo o fotos(s) de presentación del grupo
+  * /galeria.php // mostrará al menos nueve imágenes del grupo
+  * /librovisitas.php // contendrá un formulario y los comentarios que dejan los usuarios que llegan a la página que permitirá a los usuarios dejar sus comentarios.
+  * /contacto.php // tendrá un formulario que nos mande mensajes por email
+  * /includes/header.php // imagen fija de 1200x300px
+  * /includes/menu.php // botonera que incluirá galería, contacto,libro de visitas, administración
+  * /includes/sidebar.php // lista de enlaces de referencia o imágenes de fans, o imágenes de grupos afines
   * /includes/footer.php // deberá mostrar dinámicamente el año de creación junto con el año actual si no es el actual... además un enlace hacia la página web del webmaster.
   * /includes/functions.php
   * /imagesheader
   * /imagesgaleria
+   ## Archivos comunes
+  * /css/main.css
+  * /js/main.js
  
   ##Backend
 
   * /admin/index.php
   * /admin/adminportada.php
-  * /admin/header
+  * /admin/header // deberá administrar las imágenes que salen en el header
   * /admin/adminlibrovisitas.php
   * /admin/admingaleria.php
   * /admin/cerrarsesion.php
