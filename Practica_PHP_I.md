@@ -11,9 +11,6 @@ Para ello deberemos crear una web con un frontend publico y un backend de admini
   * /contacto.php
   * /css/main.css
   * /js/main.js
-  * /images/
-  * /fonts/
-  * /docs/
   * /includes/header.php
   * /includes/menu.php
   * /includes/sidebar.php
@@ -24,9 +21,11 @@ Para ello deberemos crear una web con un frontend publico y un backend de admini
 
   * /admin/index.php
   * /admin/adminportada.php
+  * /admin/header
   * /admin/adminlibrovisitas.php
   * /admin/admingaleria.php
   * /admin/cerrarsesion.php
+ 
 
 
 
