@@ -35,7 +35,7 @@ Tras elaborar el frontend utilizando includes.php , procederemos a crear la part
   * /admin/includes/header
   * /admin/includes/footer
   * /admin/includes/menu
-  * /admin/includes/pasword.txt
+  * /admin/includes/password.txt
  
 
 
