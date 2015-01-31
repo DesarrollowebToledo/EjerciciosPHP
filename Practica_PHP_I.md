@@ -3,6 +3,7 @@ El objetivo de la práctica será crear una web autoadministrable por ellos mism
 Para ello deberemos crear una web con un frontend publico y un backend de administración gestionado por sesiones.
 
 1.    estructura de archivos
+   ##Frontend
   * /index.php
   * /galeria.php
   * /librovisitas.php
@@ -17,6 +18,7 @@ Para ello deberemos crear una web con un frontend publico y un backend de admini
   * /includes/sidebar.php
   * /includes/footer.php
   * /includes/functions.php
+  ##Backend
   * /admin/index.php
   * /admin/adminportada.php
   * /admin/adminlibrovisitas.php
