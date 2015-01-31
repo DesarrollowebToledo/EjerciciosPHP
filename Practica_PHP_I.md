@@ -2,6 +2,8 @@
 El objetivo de la práctica será crear una web autoadministrable por ellos mismos a un grupo musical. 
 Para ello deberemos crear una web con un frontend publico y un backend de administración gestionado por sesiones.
 
+Tras elaborar el frontend utilizando includes.php , procederemos a crear la parte de administración.
+
 1.    estructura de archivos
 
    ##Frontend
