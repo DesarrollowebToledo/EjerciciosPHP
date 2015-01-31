@@ -7,8 +7,8 @@ Tras elaborar el frontend utilizando includes.php , procederemos a crear la part
 1.    estructura de archivos
 
    ##Frontend
-  * /index.php
-  * /galeria.php
+  * /index.php // deberá mostrar un header con imagen aleatoria dependiendo del acceso (tres imágenes alojadas en imagesheader)
+  * /galeria.php // deberá mostrar las imágenes que se carguen en la carpeta galeriaimg
   * /librovisitas.php
   * /contacto.php
   * /css/main.css
@@ -16,8 +16,10 @@ Tras elaborar el frontend utilizando includes.php , procederemos a crear la part
   * /includes/header.php
   * /includes/menu.php
   * /includes/sidebar.php
-  * /includes/footer.php
+  * /includes/footer.php // deberá mostrar dinámicamente el año de creación junto con el año actual si no es el actual... además un enlace hacia la página web del webmaster.
   * /includes/functions.php
+  * /imagesheader
+  * /imagesgaleria
  
   ##Backend
 
