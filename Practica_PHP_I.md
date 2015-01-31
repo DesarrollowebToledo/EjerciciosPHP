@@ -1,6 +1,7 @@
 #Creación de una página web autoadministrable con PHP
 El objetivo de la práctica será crear una web autoadministrable por ellos mismos a un grupo musical. 
 Para ello deberemos crear una web con un frontend publico y un backend de administración gestionado por sesiones.
+El desarrollo lo realizaremos utilzando github como sistema de control de versiones.
 
 ##Deberemos tender a incorporar el máximo de elementos autoadministrables
 
@@ -37,7 +38,9 @@ Tras elaborar el frontend utilizando includes.php , procederemos a crear la part
   * /admin/includes/menu
   * /admin/includes/password.txt
  
-  ##Backend
+  ##Publicación
+Deberemos publicar la página en hostinger accesible desde nuestra página personal de github 
+
 
 
 
