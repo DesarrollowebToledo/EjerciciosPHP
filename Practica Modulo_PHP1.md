@@ -36,8 +36,8 @@ El objeto de la práctica será crear una aplicación web autoadministrable por 
 
 
 ## Modelo de estructura de archivos
+###Frontend.
 
-   ###Frontend. 
    **La vista** _  Estos archivos son sólo sugerencias, debemos utilizar los que  estimemos necesarios_
  
   * /index.php // incorporará el máximo de includes a los módulos según la propuesta de frontend
