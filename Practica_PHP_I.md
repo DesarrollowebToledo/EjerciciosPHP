@@ -12,10 +12,12 @@ El objeto de la práctica será crear una aplicación web autoadministrable :
 *  que muestre fotos de un usuario (grupo musical...) 
 *  que recoja una breve descripción del usuario
 *  que recoja valoraciones de los usuarios anónimamente sobre las fotos (libro de visitas)
-*  
-*  
-Para ello deberemos crear una web con un frontend publico y un backend de administración gestionado por sesiones.
-El desarrollo lo realizaremos utilzando github como sistema de control de versiones.
+##Proceso de Elaboración
+*  deberemos crear un frontend  
+*  un backend de administración del frontend gestionado por sesiones.
+*  El desarrollo lo realizaremos utilzando github como sistema de control de versiones.
+##Modelo de frontend
+![modelo frontend](https://dl.dropboxusercontent.com/u/37685212/img/plantillafrontend-8.jpg)
 
 ##Deberemos tender a incorporar el máximo de elementos autoadministrables
 
