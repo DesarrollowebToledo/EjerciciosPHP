@@ -15,29 +15,36 @@ El objeto de la práctica será crear una aplicación web autoadministrable :
 ##Proceso de Elaboración
 *  deberemos crear un frontend  
 *  un backend de administración del frontend gestionado por sesiones.
+*  Deberemos a tender a incorporar el máximo de elementos autoadministrables
 *  El desarrollo lo realizaremos utilzando github como sistema de control de versiones.
+
 ##Modelo de frontend
 ![modelo frontend](https://dl.dropboxusercontent.com/u/37685212/img/plantillafrontend-8.jpg)
 
 ##Deberemos tender a incorporar el máximo de elementos autoadministrables
 
-Tras elaborar el frontend utilizando includes.php , procederemos a crear la parte de administración.
 
-1.    estructura de archivos
+## Modelo de estructura de archivos
 
-   ##Frontend
-  * /index.php // alojará una descripción y un  pequeño vídeo  de presentación del grupo alojado en youtube.
-  * /galeria.php // mostrará,al menos, seis imágenes del grupo 
-  * /librovisitas.php // contendrá un formulario y los comentarios que dejan los usuarios que llegan a la página que permitirá a los usuarios dejar sus comentarios.
-  * /contacto.php // tendrá un formulario que nos mande mensajes por email
-  * /includes/header.php // imagen fija de 1200x300px
-  * /includes/menu.php // botonera que incluirá galería, contacto,libro de visitas, administración
-  * /includes/sidebar.php // lista de enlaces de referencia o imágenes de fans, o imágenes de grupos afines
+   ###Frontend
+   
+   Estos archivos son sólo sugerencias, debemos utilizar los que  estimemos necesarios
+ 
+  * /index.php // incorporará el máximo de includes a los módulos según la propuesta de frontend
+   -----------header----------
+  * /includes/header.php // imagen  de 1200x300px (opcional crear un script en el archivo o directorio functions que sea aleatoria)
+  * /include/login.php // recojerá el formulario de login
+  * /includes/menu.php // botonera que incluirá galería, contacto,libro de visitas... __Este menú es opcional, sólo lo haremos si lo estimamos necesarios para una mejor navegación en la web__
+  * /includes/sidebar.php // recogerá los elementos que hayamos puesto en el sidebar.
+  * /includes/galeria.php // mostrará,al menos, seis imágenes del grupo 
+  */ includes/formcomentarios 
+  * /include/comentarios.php
+  * /includes/librovisitas.php // contendrá un formulario y los comentarios que dejan los usuarios que llegan a la página que permitirá a los usuarios dejar sus comentarios.
   * /includes/footer.php // deberá mostrar dinámicamente el año de creación junto con el año actual si no es el actual... además un enlace hacia la página web del webmaster, mediante un icono de fontawesome.
   * /includes/functions.php
   * /imagesheader
   * /imagesgaleria
-   ## Archivos comunes
+   ### Archivos comunes
   * /css/main.css // además de usar bootstrap, podemos en esta página incluir nuestros estilos (al menos 1)
   * /js/main.js // además de incluir jquery podemos aquí colocar nuestros pequeños script (al menos 1)
  
