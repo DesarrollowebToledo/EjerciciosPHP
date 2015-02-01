@@ -9,6 +9,10 @@ _Esta práctica intentará realizar una aplicación web con los contenidos desar
 *  Crear funciones que permitan reutilizar el código y usar funciones que vienen en el núcleo de php
 *  Gestionar ficheros y directorios desde PHP
 *  Usar sesiones y cookies
+*  Contenidos complementarios: 
+   *     incorporar librerías mediante CDNs (Bootstrap, JQuery, fontawesome...)
+   *     Utilizar filezilla para subir páginas al servidor de alojamiento compartido
+   *     Utilizar cliente de Github para trabajo colaborativo y control de versiones
 
 ##Objeto: Requisitos de la aplicación
 El objeto de la práctica será crear una aplicación web autoadministrable por un cliente :
@@ -18,10 +22,12 @@ El objeto de la práctica será crear una aplicación web autoadministrable por 
 *  que pueda autoadministrarse por un usuario-cliente con básicos o mínimos conocimientos del web
 ##Proceso de Elaboración
 *  deberemos crear un frontend, estático  
-*  un backend de administración de ese frontend gestionado por sesiones.
+*  un backend de administración de ese frontend gestionado por sesiones autenticado por datos alojados en un .txt
+*  **Actividad Opcional** En el formulario de usuario, deberemos crear un checkbox que permita almacenar una  cookie de usuario que le evite tener que autenticarse al usuario en una máquina y navegador determinado.
 *  Deberemos a tender a incorporar el máximo de elementos autoadministrables con contenidos que pueden variar dependiendo de las acciones de los dos tipos de usuario
 *  El desarrollo lo realizaremos utilzando github como sistema de control de versiones.
 *  Nos asociaremos en equipos de dos personas.
+***
 
 ##Modelo de frontend
 ![modelo frontend](https://dl.dropboxusercontent.com/u/37685212/img/plantillafrontend-8.jpg)
@@ -31,15 +37,14 @@ El objeto de la práctica será crear una aplicación web autoadministrable por 
 
 ## Modelo de estructura de archivos
 
-   ###Frontend. La vista _
-   
-   Estos archivos son sólo sugerencias, debemos utilizar los que  estimemos necesarios
+   ###Frontend. 
+   **La vista** _  Estos archivos son sólo sugerencias, debemos utilizar los que  estimemos necesarios_
  
   * /index.php // incorporará el máximo de includes a los módulos según la propuesta de frontend
   
 >header
 
-  * /includes/header.php // imagen  de 1200x300px (opcional crear un script en el archivo o directorio functions que sea aleatoria)
+  * /includes/header.php // imagen  de 1200x200px (opcional crear un script en el archivo o directorio functions que sea aleatoria)
   * /include/login.php // recojerá el formulario de login
   * /includes/menu.php // botonera que incluirá galería, contacto,libro de visitas... _Este menú es opcional, sólo lo haremos si lo estimamos necesarios para una mejor navegación en la web, aunque siempre es bueno disponer de un menú que nos ayude a la navegación_
 
@@ -55,7 +60,8 @@ El objeto de la práctica será crear una aplicación web autoadministrable por 
 >footer
   * /includes/footer.php // _deberá mostrar dinámicamente el año de creación junto con el año actual si no es el actual... además un enlace hacia la página web del webmaster, mediante un icono de fontawesome_
   
-   ### Archivos comunes
+   ### Archivos comunes de la **vista**
+  * cdn de bootstrap, bootswatch, jquery, fontawesome
   * /css/main.css // además de usar bootstrap, podemos en esta página incluir nuestros estilos (al menos 1)
   * /js/main.js // además de incluir jquery podemos aquí colocar nuestros pequeños script (al menos 1)
   * /img/ // el logo y las imagenes que utilicemos en el diseño. El resto de las imágenes ,autoadministrables, las pondremos en model
@@ -88,7 +94,7 @@ El objeto de la práctica será crear una aplicación web autoadministrable por 
 *  model/titulo_aplicación.txt
 *  model/contenido_usuario.txt
 *  model/comentarios.txt
-*  /imgheaders/  // imagenes que luego podrán rotar en la cabecera
+*  /imgheaders/  // imagenes que luego podrán rotar en la cabecera cuando se recarga la página
 *  /imggaleria/  // imagenes que conformarán las imágenes  subidas por el usuario
 
 ##Publicación
@@ -96,6 +102,12 @@ El objeto de la práctica será crear una aplicación web autoadministrable por 
 *  accesible mmediante un link del perfil de nuestra página personal de github 
 *  El código fuente deberá estar alojado en github
 
-
+## Evaluación de la Práctica
+*  La práctica supondrá el 50%  de la nota en la evaluación de la unidad didáctica. El resto será fruto de las pruebas objetivas tipo test realizados por los alumnos
+*  La práctica se evaluará mediante una hoja de seguimiento que contemplará los siguientes aspectos
+   *  Un 50% de la nota vendrá determinado por el cumplimiento satisfactorio de las actividades
+   *  El 20% de la nota vendrá determinado por el grado de acabado,  presentación (incorporación de efectos css o js en frontend...)
+   *  Un 15% por los aportes de mejora no pedidos. (un script de mejora en php, o en js...) 
+   *  Un 15% de la nota será fruto del comportamiento actitudinal: trabajo colaborativo, autonomía,autoaprendizaje.
 
 
