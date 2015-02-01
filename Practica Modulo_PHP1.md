@@ -49,18 +49,22 @@ El objeto de la práctica será crear una aplicación web autoadministrable por 
   * /includes/menu.php // botonera que incluirá galería, contacto,libro de visitas... _Este menú es opcional, sólo lo haremos si lo estimamos necesarios para una mejor navegación en la web, aunque siempre es bueno disponer de un menú que nos ayude a la navegación_
 
 >main
+
  * /includes/galeria.php // _mostrará,al menos, seis imágenes del grupo anque el sript puede aceptar más_
  * /includes/descripcion.php //_mostrará una pequeña descripción sobre si mismo del usuario. Si nos atravemos podría ser incluso una lista de conciertos..._
  
 >sidebar
+
   * /includes/sidebar.php // _recogerá los elementos que hayamos puesto en el sidebar_
   * /include/formcomentarios.php // _recogerá un formulario en el que se puedan añadir visitas_
   * /includes/libvisitas.php // _recogerá las el nombre y el comentario de los usuarios que hayan realizado las visitas_
  
 >footer
+
   * /includes/footer.php // _deberá mostrar dinámicamente el año de creación junto con el año actual si no es el actual... además un enlace hacia la página web del webmaster, mediante un icono de fontawesome_
   
-   ### Archivos comunes de la **vista**
+ ### Archivos comunes de la **vista**
+
   * cdn de bootstrap, bootswatch, jquery, fontawesome
   * /css/main.css // además de usar bootstrap, podemos en esta página incluir nuestros estilos (al menos 1)
   * /js/main.js // además de incluir jquery podemos aquí colocar nuestros pequeños script (al menos 1)
