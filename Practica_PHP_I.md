@@ -31,10 +31,13 @@ El objeto de la práctica será crear una aplicación web autoadministrable :
    Estos archivos son sólo sugerencias, debemos utilizar los que  estimemos necesarios
  
   * /index.php // incorporará el máximo de includes a los módulos según la propuesta de frontend
-   -----------header----------
+  
+>header
+
   * /includes/header.php // imagen  de 1200x300px (opcional crear un script en el archivo o directorio functions que sea aleatoria)
   * /include/login.php // recojerá el formulario de login
-  * /includes/menu.php // botonera que incluirá galería, contacto,libro de visitas... __Este menú es opcional, sólo lo haremos si lo estimamos necesarios para una mejor navegación en la web__
+  * /includes/menu.php // botonera que incluirá galería, contacto,libro de visitas... _Este menú es opcional, sólo lo haremos si lo estimamos necesarios para una mejor navegación en la web_
+>sidebar
   * /includes/sidebar.php // recogerá los elementos que hayamos puesto en el sidebar.
   * /includes/galeria.php // mostrará,al menos, seis imágenes del grupo 
   */ includes/formcomentarios 
