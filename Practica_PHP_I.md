@@ -1,14 +1,19 @@
 #Creación de una página web autoadministrable con PHP
 ##Objetivos
 *  Utilizar los conceptos básicos de PHP
-*  Aprender a distribuir la estructura de la página en múltiples archivos de php que se combinen convenientemente
-*  Aprender a gestionar los datos de un formulario con PHP
+*  Aprender a distribuir la estructura de la página en múltiples archivos de php que se combinen convenientemente mediante includes
+*  Aprender a gestionar los datos de un formulario con PHP grabándolos en .txt
 *  Crear funciones que permitan reutilizar el código
 *  Gestionar ficheros y directorios desde PHP
 *  Usar sesiones y cookies
 
-
-El objeto de la práctica será crear una web autoadministrable por ellos mismos a un grupo musical. 
+##Objeto-Modelo
+El objeto de la práctica será crear una aplicación web autoadministrable :
+*  que muestre fotos de un usuario (grupo musical...) 
+*  que recoja una breve descripción del usuario
+*  que recoja valoraciones de los usuarios anónimamente sobre las fotos (libro de visitas)
+*  
+*  
 Para ello deberemos crear una web con un frontend publico y un backend de administración gestionado por sesiones.
 El desarrollo lo realizaremos utilzando github como sistema de control de versiones.
 
